@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Sara Murray',
+  siteTitle: 'Hi, I\'m Sara Murray!',
   siteDescription: `Sara Murray's Online Portfolio`,
   keyWords: ['gatsbyjs', 'react', 'resume'],
   authorName: 'Sara Murray',
