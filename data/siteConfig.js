@@ -84,11 +84,11 @@ module.exports = {
 },
   ],
    portifolio: [
-  //   {
-  //    image: "/images/gatsby-starter-cv.png",
-  //    description: "Gatsby starter CV template",
-  //    url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
-  //   },
+     {
+     image: "../images/preview-resume.png",
+     description: "Updated 2021",
+     url: "../Sara-Murray-Resume.pdf"
+     },
   //   {
   //    image: "/images/awesome-grid.png",
   //   description: "Responsive grid for ReactJS",
