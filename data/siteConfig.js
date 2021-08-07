@@ -83,26 +83,26 @@ module.exports = {
   
 },
   ],
-  portifolio: [
-    //{
-    //  image: "/images/gatsby-starter-cv.png",
-    //  description: "Gatsby starter CV template",
-    //  url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
-    //},
-    //{
-    //  image: "/images/awesome-grid.png",
-    // description: "Responsive grid for ReactJS",
-    //  url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
-    //},
-    /* more portifolio items here */
-  ],
+   portifolio: [
+  //   {
+  //    image: "/images/gatsby-starter-cv.png",
+  //    description: "Gatsby starter CV template",
+  //    url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+  //   },
+  //   {
+  //    image: "/images/awesome-grid.png",
+  //   description: "Responsive grid for ReactJS",
+  //    url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+  //   },
+  //   /* more portifolio items here */
+   ],
   social: {
 //    twitter: "https://twitter.com",
     linkedin: "https://www.linkedin.com/in/sara-m",
     github: "https://github.com/magicalraccoon",
-    email: "sara@candypunk.io"
+    email: "saramurray@candypunk.io"
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
+  siteUrl: 'https://candypunk.io',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
@@ -119,7 +119,7 @@ module.exports = {
     },
     {
       label: 'Resume',
-      url: '/portifolio',
+      url: '/resume',
     }
   ]
 }

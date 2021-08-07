@@ -36,7 +36,7 @@ const NotFoundPage = ({ location }) => (
         <img src={withPrefix('/images/ufo-and-cow.svg')} alt='ufo and cow' />
       </Icon>
       <Text>
-        Looks like you've followed a broken link or entered a URL that
+        Oops! Looks like you've followed a broken link or entered a URL that
         doesn't exist on this site.
       </Text>
     </Wrapper>
