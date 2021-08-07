@@ -3,7 +3,7 @@
 
 ### Desktop
 
-![Preview desktop](./images/preview.png)
+![Preview desktop](./public/images/preview.png)
 
 ## Configuration
 
