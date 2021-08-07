@@ -10,10 +10,11 @@
     "framer-motion": "1.11.0",
     "gatsby": "2.23.3",
     "gatsby-image": "2.4.7",
-    "gatsby-plugin-google-gtag": "^2.5.0",
+    "gatsby-plugin-google-gtag": "^2.8.0",
     "gatsby-plugin-manifest": "2.4.11",
     "gatsby-plugin-offline": "3.2.9",
     "gatsby-plugin-react-helmet": "3.3.4",
+    "gatsby-plugin-s3": "^0.3.8",
     "gatsby-plugin-sharp": "2.6.11",
     "gatsby-plugin-styled-components": "3.3.4",
     "gatsby-source-filesystem": "2.3.11",
@@ -36,13 +37,14 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby-plugin-s3 deploy --yes",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "devDependencies": {
     "gh-pages": "2.2.0",
-    "prettier": "1.19.1"
+    "prettier": "1.19.1",
+    "s3": "git://github.com/andrewrk/node-s3-client.git#0ed018699843a2d3cc1cb37399ead1f76a72576d"
   },
   "repository": {
     "type": "git",
